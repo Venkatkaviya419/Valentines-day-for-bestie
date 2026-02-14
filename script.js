@@ -37,7 +37,7 @@ function unlock() {
     document.getElementById("content").style.display = "block";
 
     const music = document.getElementById("bg-music");
-    music.volume = 0.4;
+    music.volume = 0.8;
     music.play().catch(() => {});
   } else {
     alert("Wrong password 🖤");
@@ -57,5 +57,6 @@ function showDay(day) {
     if (i >= text.length) clearInterval(typing);
   }, 28);
 }
+
 
 
